@@ -1,53 +1,46 @@
-.intro{
+#intro{
 
     margin: auto;
     margin-top: 2em;
 
     padding: 50px 50px;
     
-    width:  50%;
+    width:  40%;
     background: -webkit-linear-gradient(#2a8894, #27334d);
     
     overflow: hidden;
     border-radius: 3em;
 }
 
-.pfp-background {
-    width: 400px;
-    height: 400px;
-    overflow: hidden;
+
+
+#spinner {
+    width: 10em;
+    height: 10em;
+    margin: auto;
+}
+
+#pfp-background {
+    width: 100%;
+    height: 100%;
     border-radius: 100%;
-    margin-left: auto; 
-    margin-right: auto;
-    animation: rotation 3s infinite linear;
+    animation: rotation 1.5s infinite linear;
     z-index: 1;
 }
 
-.pfp {
-    margin-left: auto; 
-    margin-right: auto;
-    width: 200px;
-    height: 200px;
+#pfp {
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    height: 50%;
     position: relative;
-    top: -310;
-    left: 10;
+    top: -75%;
     z-index: 3;
-    margin-bottom: -300px;
  }
- 
-.blur-this {
-    margin-left: auto;
-    margin-right: auto;
-    width: 280px;
-    height: 280px;
-    bottom: 240;
 
-    padding-bottom: 0px;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.021);
-    backdrop-filter: blur(1rem);
-    z-index: 2;
-    position: relative;
+#SimpleAEImg {
+    margin-top: 10%;
+    border-radius: 2em;
 }
 
  @keyframes rotation {
@@ -58,6 +51,7 @@
       transform: rotate(359deg);
     }
   }
+
 
  
  .name { margin-bottom:-10px; }
@@ -91,17 +85,47 @@
     border-radius: 2em;
     background-color: #0a0b20;
 }
+
+.SimpleAE {
+    width: 600px;
+    height: 600px;
+    margin-left: auto;
+    border-radius: 2em;
+    background-color: #0a0b20;
+
+}
+#SimpleAEDescription {
+    margin: 1em;
+}
+
+.MFCD {
+    width: 600px;
+    height: 600px;
+    margin-top: -20em;
+    margin-right: auto;
+    border-radius: 2em;
+    background-color: #0a0b20;
+}
+#MFCDImg {
+    width: 65%;
+    height: 65%;
+    margin-top: 10%;
+    border-radius: 2em;
+}
+
 #logo {
     border-radius: 20%;
-    margin-top: 10%;
+    margin-top: 2em;
 }
+
 
 
 ::-webkit-scrollbar{
     display: none;
 }
 
-
+a { color: #6a4bdb }
+a:visited {color: #6a4bdb }
 html { 
     font-family: monospace; 
     font-size: 30px;
