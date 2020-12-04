@@ -82,7 +82,7 @@
         display: inline-block !important;
     }
     h1 {
-        font-size: 10px;
+        justify-content: center;
     }
 }
 
@@ -124,7 +124,7 @@ a { color: #6a4bdb }
 a:visited {color: #6a4bdb }
 html { 
     font-family: monospace; 
-    font-size: 30px;
+    font-size: 1.6vw;
     background-color: #101225;
     color: white;
     text-align: center;
