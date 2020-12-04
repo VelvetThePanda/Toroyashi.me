@@ -72,40 +72,33 @@
     margin: auto;
     margin-top: 5em;
     padding: 40px;
+    display: inline-block;
     border-radius: 3em;
     background-color: #27334d;
 }
 
-.Silk {
-    width: 600px;
-    height: 600px;
-    margin-top: 2em;
-    margin-right: auto;
-    margin-left: auto;
-    border-radius: 2em;
-    background-color: #0a0b20;
+@media (min-width: 600) and (orientation: landscape){
+    .Silk, .SimpleAE, .MFCD {
+        display: inline-block !important;
+
+    }
 }
 
-.SimpleAE {
+
+
+.Silk, .SimpleAE, .MFCD {
+
     width: 600px;
     height: 600px;
-    margin-left: auto;
+    display: inline-block;
+    margin: 2em; /* delete your other margin */
+    margin-top: 15px;
+    vertical-align: top;
     border-radius: 2em;
     background-color: #0a0b20;
+  }
 
-}
-#SimpleAEDescription {
-    margin: 1em;
-}
 
-.MFCD {
-    width: 600px;
-    height: 600px;
-    margin-top: -20em;
-    margin-right: auto;
-    border-radius: 2em;
-    background-color: #0a0b20;
-}
 #MFCDImg {
     width: 65%;
     height: 65%;
