@@ -80,7 +80,9 @@
 @media (min-width: 600) and (orientation: landscape){
     .Silk, .SimpleAE, .MFCD {
         display: inline-block !important;
-
+    }
+    h1 {
+        font-size: 10px;
     }
 }
 
@@ -116,6 +118,7 @@
 ::-webkit-scrollbar{
     display: none;
 }
+
 
 a { color: #6a4bdb }
 a:visited {color: #6a4bdb }
