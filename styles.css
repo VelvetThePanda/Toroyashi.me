@@ -1,0 +1,295 @@
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none;
+
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
+
+.name {
+    font-size: 50px;
+}
+
+.intro {
+    background-color: #64c26d;
+    height: 200vh;
+    width: 100vw;
+
+    top: 0;
+    left: 0;
+    bottom: 200vh;
+    position: absolute;
+
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+
+
+}
+
+.pando {
+    width: 250px;
+    height: 250px;
+	margin: 20px auto auto;
+
+	position: relative;
+    border-radius: 100%;
+	background: url(images/velvet.png) no-repeat;
+	background-size: cover;
+}
+
+.discord {
+    width: 128px;
+    height: 128px;
+    margin-left: 33vw;
+    position: absolute;
+}
+
+.discord-button {
+    width: 128px;
+    height: 128px;
+    border: none;
+    background: transparent url(images/discord.png) no-repeat;
+    background-size: cover;
+}
+
+.links {
+    position: relative;
+    margin-top: 65px;
+}
+
+.github {
+    width: 128px;
+    height: 128px;
+    margin-left: 47%;
+    position: absolute;
+}
+
+.github-button {
+    width: 128px;
+    height: 128px;
+    border: none;
+    background: transparent url(images/github.png) no-repeat;
+    background-size: cover;
+}
+
+.twitter {
+    width: 128px;
+    height: 128px;
+    margin-left: 60%;
+    position: absolute;
+}
+
+.twitter-button {
+    width: 128px;
+    height: 128px;
+    border: none;
+    background: transparent url(images/twitter.png) no-repeat;
+    background-size: cover;
+
+}
+
+.about {
+	font-size: 600%;
+	position: relative;
+	top: 20%;
+}
+
+.projects {
+    margin-top: 65vh;
+}
+
+.project-cards {
+	display: flex;
+	margin-top: 10vh;
+	align-items: center;
+	justify-content: center;
+}
+
+.project-buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.projectsText {
+	top: 65vh;
+	font-size: 50px;
+	text-align: center;
+}
+
+.silk-project-outer {
+    width: 20vw;
+    height: 20vw;
+    border-radius: 15%;
+    margin: 0 10em 0 10em;
+	background-color: #3b4b64;
+}
+
+.silk-project-inner {
+	width: 15vw;
+    height: 15vw;
+    border-radius: 15%;
+    top: 5%;
+
+	margin: auto auto 10%;
+
+	position: relative;
+
+    border: none;
+	background: #4e5e75 url(images/silk.png) no-repeat;
+	background-size: cover;
+}
+
+.silk-project-description {
+	font-size: 100%;
+    font-weight: bold;
+}
+
+.furcord-project-outer {
+    background-color: #3b4b64;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 15%;
+}
+
+.furcord-logo {
+    position: relative;
+    text-align: center;
+    font-size: 10vw;
+    top: 10%;
+    color: #3c4655;
+    font-weight: bold;
+}
+
+.furcord-project-inner {
+	width: 15vw;
+    height: 15vw;
+	border-radius: 15%;
+    top: 5%;
+	margin: auto auto 10%;
+    position: relative;
+    border: none;
+	background: #4e5e75 no-repeat;
+	background-size: cover;
+}
+
+.furcord-project-description {
+	font-size: 100%;
+    font-weight: bold;
+}
+
+.mfcd-project-outer {
+    background-color: #3b4b64;
+    width: 20vw;
+    height: 20vw;
+    border-radius: 15%;
+}
+
+.mfcd-logo {
+    position: relative;
+    text-align: center;
+    font-size: 4vw;
+    top: 35%;
+
+    color: #3c4655;
+    font-weight: bold;
+}
+
+.mfcd-project-inner {
+	width: 15vw;
+    height: 15vw;
+	margin: auto auto 10%;
+    border-radius: 15%;
+    top: 5%;
+	position: relative;
+    border: none;
+	background: #4e5e75 no-repeat;
+	background-size: cover;
+}
+
+.mfcd-project-description {
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.furcord-github {
+	width: 128px;
+	height: 128px;
+	top: 20%;
+	margin: auto;
+	position: relative;
+}
+
+.furcord-github-button {
+	width: 64px;
+	height: 64px;
+	border: none;
+	background: transparent url(images/github.png) no-repeat;
+	background-size: cover;
+}
+
+
+.silk-buttons {
+	display: inline-flex;
+	top: 20%;
+	position: relative;
+}
+
+.silk-github {
+	width: 128px;
+	height: 128px;
+	top: 20%;
+	margin: auto;
+	position: relative;
+}
+
+.silk-github-button {
+	width: 64px;
+	height: 64px;
+	border: none;
+	background: transparent url(images/github.png) no-repeat;
+	background-size: cover;
+}
+.silk-youtrack {
+	width: 128px;
+	height: 128px;
+	top: 20%;
+	margin: auto;
+	position: relative;
+}
+
+.silk-youtrack-button {
+	width: 64px;
+	height: 64px;
+	border: none;
+	background: transparent url(images/youtrack.png) no-repeat;
+	background-size: cover;
+}
+
+.mfcd-github {
+	width: 128px;
+	height: 128px;
+
+	top: 20%;
+	margin: auto;
+	position: relative;
+}
+
+.mfcd-github-button {
+	width: 64px;
+	height: 64px;
+	border: none;
+	background: transparent url(images/github.png) no-repeat;
+	background-size: cover;
+}
+
+.hiding {
+	bottom: 5px;
+	right: 15px;
+	position: absolute;
+}
