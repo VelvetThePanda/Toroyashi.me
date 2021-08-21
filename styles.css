@@ -99,8 +99,7 @@ body {
 }
 
 .projects {
-    margin-top: 65vh;
-    display: flex;
+    margin-top: 20vh;
     align-content: center;
 }
 
@@ -117,8 +116,6 @@ body {
 }
 
 .projectsText {
-	display: flex;
-
 	font-size: 50px;
 	text-align: center;
 }
@@ -291,8 +288,7 @@ body {
 }
 
 .hiding {
-	bottom: 5px;
-	right: 15px;
-	align-content: flex-end;
-    color: black;
+    position: absolute;
+    bottom: 5px;
+    right: 15px;
 }
