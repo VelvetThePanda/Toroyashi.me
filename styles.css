@@ -94,16 +94,20 @@ mark.red {
 
 .project-card {
     display: flex;
-
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     flex-wrap: wrap;
-    margin: 0 100px 0 100px;
+    margin: 0 100px 90px 100px;
     width: 400px;
     height: 400px;
     background-color: #3b4b64;
     border-radius: 15%;
+}
+
+.project-card > :nth-child(4) {
+    flex-direction: row;
 }
 
 .project-card-inner {
@@ -112,4 +116,31 @@ mark.red {
     border-radius: 10%;
     background: #4e5e75 no-repeat center;
     background-size: 98%;
+}
+
+.github-button {
+    display: inline-flex;
+    margin-top: 15%;
+    margin-bottom: -24%;
+    background: transparent url("/images/github.png") no-repeat;
+    background-size: 100%;
+    width: 64px;
+    height: 64px;
+}
+
+.silk-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.silk-buttons * {
+
+    margin-top: 50%;
+    margin-bottom: -77%;
+    background: transparent no-repeat;
+    background-size: 100%;
+    width: 64px;
+    height: 64px;
 }
