@@ -137,8 +137,9 @@ mark.red {
 
 .silk-buttons * {
 
-    margin-top: 50%;
-    margin-bottom: -77%;
+    margin-top: 35%;
+    margin-bottom: -55%;
+    margin-left: 20px;
     background: transparent no-repeat;
     background-size: 100%;
     width: 64px;
