@@ -36,13 +36,8 @@ h1 {
 }
 
 .silk {
-    display: flex;
-
-    width: 45%;
-    height: 45%;
-
-    background: transparent url("/images/silk.png") no-repeat center;
-    background-size: 40%;
+    width: 20%;
+    min-width: 25vh;
 }
 
 .invite {
