@@ -45,10 +45,14 @@ h1 {
     background-size: 40%;
 }
 
+.invite {
+    padding-top: .5%;
+    font-size: 140%;
+}
+
 .links {
     display: flex;
     flex-direction: row;
-
     padding-top: 1%;
-    font-size: 180%;
+    font-size: 120%;
 }
