@@ -12,10 +12,3 @@ function type() {
 }
 
 window.addEventListener('load', type);
-
-const headerText = document.querySelector('.header-text');
-
-window.addEventListener('load', () => {
-
-    headerText.classList.add('animate');
-});
