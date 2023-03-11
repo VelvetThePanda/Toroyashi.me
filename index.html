@@ -1,62 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta property="og:title" content="Why are you looking at my site smh"/>
+<head>
+  <meta lang="en">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="styles.css">
+  <title>Velvet Toroyashi.</title>
+  <link rel="icon" href="/images/velvet.png" type="image/x-icon">
+</head>
+<body>
+<header>
+  <img src="/images/velvet.png" class="profile-image" alt="">
+  <h1 id="header-text"></h1>
+  <h2>Story-writer by night, C# and Rust developer by day.</h2>
+  <a href="#about-header" class="scroll-indicator">
+    <span class="arrow"></span>
+  </a>
+</header>
 
-    <meta charset="utf-8">
-    <title>Insert title here</title>
-    <link rel="icon" href="/images/velvet.png" type="image/x-icon">
-    <link href="https://fonts.googleapis.com/css?family=Arial" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-  </head>
+<div id="about">
+  <div class="about-me">
+    <h1 id="about-header">Writer of crimes against CPUs—Turns apples into code.</h1>
+    <span>I'm not one for many words, so in short, hi.</span>
+    <span>I use the following tools and technologies in my projects:</span>
+    <img height="75vw" src="https://skillicons.dev/icons?i=github,dotnet,rust,discord,git,docker,postgres,redis,cloudflare,html,css">
 
-  <body>
-    <h1 class="name">Velvet The <mark class="red">[Red]</mark> Panda</h1>
+    <span style="margin: 2% 0 0 0;">Check out these projects I work on.</span>
+  </div>
 
-    <div class="avatar"></div>
-
-    <div class="socials">
-      <a href="https://discord.com/users/209279906280898562" style="background-image: url('/images/discord.png')" title="Discord"></a>
-      <a href="https://twitter.com/VelvetThePanda" style="background-image: url('/images/twitter.png')" title="Twitter"></a>
-      <a href="https://github.com/VelvetThePanda"style="background-image: url('/images/github.png')" title="GitHub"></a>
+  <div class="project-container">
+    <div class="project-card">
+      <div class="project-card-image">
+        <img width="200px" height="200px" src="https://raw.githubusercontent.com/twitter/twemoji/master/assets/svg/1f988.svg">
+      </div>
+      <div class="project-card-inner">
+        <span class="project-card-description">Remora. A great set of libraries—I'm also the second-largest contributor.</span>
+        <div class="project-languages">
+          <img src="https://skillicons.dev/icons?i=github,dotnet,discord,redis">
+        </div>
+      </div>
+      <div class="buffer"></div>
     </div>
 
 
-    <div class="about">
-      <span class="who-am-i">Who am I?</span>
-      <span class="about-extended">Some know me as VelvetThePanda, or just Velvet.</span>
-      <span class="about-extended">Others know me Velv, Velvy, or even Velveeta.</span>
-      <span class="about-extended">...I'm also probably in your pantry right now.</span>
 
-      <span style="margin-top: 15%; font-size: 280%; font-weight: bold;">Projects I work on: Open source, of course.</span>
+    <div class="project-card">
+      <div class="project-card-image">
+        <a href="https://github.com/VelvetThePanda/Kobalt">
+          <img width="200px" src="/images/kobalt.png">
+        </a>
+      </div>
+      <div class="project-card-inner">
+        <span class="project-card-description">Kobalt. Designed to be better based on what I've learned from Silk! <br> It's built on microservices, primarily C# and Rust.</span>
+        <div class="project-languages">
+          <img src="https://skillicons.dev/icons?i=github,dotnet,rust,discord,redis,postgres,docker,html,css,js,go,python">
+        </div>
+      </div>
+      <div class="buffer"></div>
     </div>
 
-    <div class="projects">
-      <div class="project-card">
-        <div class="project-card-inner">
-          <span style="color:#3c4655; font-weight: bold; font-size: 5vmax; margin-top: 80px">MFCD</span>
-        </div>
-        <span class="project-card-description">Download furry content.</span>
-        <a href="https://github.com/VelvetThePanda/MFCD_Rewrite" class="github-button"></a>
+    <div class="project-card">
+      <div class="project-card-image">
+        <a href="https://github.com/VelvetThePanda/Silk">
+          <img width="200px" src="https://cdn.discordapp.com/avatars/721514294587424888/d2d29d89fa2ffd1ed08f676c84351fa5.png?size=256">
+        </a>
       </div>
-
-      <div class="project-card">
-        <div class="project-card-inner" style="background-image: url('/images/silk.png')"></div>
-        <span class="project-card-description">A bot that goes beep boop.</span>
-
-        <div class="silk-buttons">
-          <a href="https://github.com/VelvetThePanda/Silk" class="github-button" style="background-image: url('/images/github.png')"></a>
-          <a href="https://youtrack.velvetthepanda.dev" class="youtrack-button" style="background-image: url('/images/youtrack.png')"></a>
-        </div>
+      <div class="project-card-inner">
+        <span class="project-card-description">Silk! My first bot. I've learned a lot from it.</span>
+        <div class="project-languages"><img src="https://skillicons.dev/icons?i=github,dotnet,rust,discord,redis,postgres,docker"></div>
       </div>
-
-      <div class="project-card">
-        <div class="project-card-inner">
-          <span style="color:#3c4655; font-weight: bold; font-size: 4vmax; margin-top: 93px">FurCord</span>
-        </div>
-        <span class="project-card-description">A [bot] library I need to finish.</span>
-        <a href="https://github.com/VelvetThePanda/FurCord.NET" class="github-button"></a>
-      </div>
+      <div class="buffer"></div>
     </div>
-  </body>
+
+        <div class="project-card">
+          <div class="project-card-image">
+
+            <a href="https://github.com/DSharpPlus/DSharpPlus">
+              <img width="200" src="https://raw.githubusercontent.com/DSharpPlus/DSharpPlus/master/logo/d%23%2B_smaller.png">
+            </a>
+          </div>
+          <div class="project-card-inner">
+            <span class="project-card-description">D#+. Great library, really. I've even become a maintainer.</span>
+            <div class="project-languages">
+              <img src="https://skillicons.dev/icons?i=github,dotnet,discord,java">
+            </div>
+          </div>
+            <div class="buffer"></div>
+        </div>
+  </div>
+</div>
+
+<script defer src="script.js"></script>
+</body>
 </html>
