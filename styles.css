@@ -9,18 +9,23 @@
     src: url('/ArialRounded.ttf') format('truetype');
 }
 
+@font-face {
+    font-family: "Helvetica Rounded";
+    src: url("/HelveticaRoundedLTStd-Bd.ttf") format('truetype');
+}
+
 html{
     scroll-behavior: smooth;
     transition-duration: 500ms;
+
+}
+
+* {
+    box-sizing: border-box;
 }
 
 body {
-    display:flex;
-    flex-direction: column;
 
-    flex-grow: 1;
-    margin: 0;
-    padding: 0;
     background-color: var(--main_bg);
 
     justify-content: center;
@@ -39,6 +44,9 @@ body {
 
 header {
     display: flex;
+
+    align-self: center;
+    justify-self: center;
 
     align-items: center;
     flex-direction: column;
@@ -125,6 +133,7 @@ header > h2 {
     font-family: "Helvetica Rounded", "Segoe UI", serif;
 }
 
+
 #about {
     display: flex;
     height: 100vh;
@@ -179,7 +188,7 @@ header > h2 {
 
     display: flex;
     flex-direction: column;
-    width: 55vmax;
+    width: calc(min(55vmax, 90vw));
     align-items: center;
     align-self: center;
 
