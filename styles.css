@@ -126,7 +126,7 @@ header > h2 {
 }
 
 #about-header {
-    font-size: calc(max(150%, 3.5vw));
+    font-size: 3.25vw;
     color: #c9c9c9;
     font-family: "Helvetica Rounded", "Segoe UI", serif;
 }
